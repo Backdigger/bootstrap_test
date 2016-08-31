@@ -1,37 +1,200 @@
 body {
-    position: relative;
+    background-color: transparent;
+    
+}
+
+.header {
+    width: 100%;
+    background-image: url("http://placehold.it/1170x659");
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+/* Top navigation */
+.navbar-header {
+    height: 38px;
+    opacity: 0.5;
+    background-color: transparent;
 
 }
 
-.navbar-top {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #2b542c;
-    height: 50px;
+.main-navigation__links {
+    display: inline-block;
+    height: 19px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+
+}
+
+.main-navigation__links.active:before{
+    background-color: #54d154;
+    width: 42px;
+    height: 5px;
+    display: block
+}
+
+.navbar-brand {
+    float: none;
+    display: inline-block;
+}
+
+.top-search {
+
+
+}
+
+/*Block with main info*/
+
+.top-block {
+
+    margin-top: 48px;
+    min-height: 682px;
     width: 100%;
 }
 
-.main-content {
-    background-color: #999999;
-    margin-top: 50px;
+.main-title {
+    width: 538px;
+    min-height: 51px;
+    color: white;
+    font-size: 55px;
+    font-weight: 400;
+    padding-top: 285px;
+    padding-bottom: 341px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
 
 }
 
-.modal-container {
+.main-button {
+    margin: 0 auto;
+    width: 154px;
+    height: 17px;
+}
+
+.main-button__button {
+    background-color: #54d154;
+
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.scroll-button {
+    width: 78px;
+    height: 12px;
+    margin-top: 217px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scroll-button__button {
+    color: white;
+    opacity: 0.7;
+
+
+    font-size: 16px;
+    font-weight: 300;
+
+
+}
+
+/*Block with company's activities*/
+
+.activities-block {
+    background-color: white;
+    min-height: 577px;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/*Block with work examples*/
+
+.work-block {
+    background-color: #54d154;
+    min-height: 748px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 20px;
 
 }
 
-.row {
+/*Block with testimonials*/
+
+.testimonials-block {
+    background-color: white;
+    min-height: 342px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.carousel-inner {
+    width: 275px;
+    height: 139px;
 
 
 }
 
-.col-md-4 {
-    background-color: #2e6da4;
-    height: 200px;
+.carousel-caption {
 
 
+}
+
+.carousel-caption__logo {
+    width: 46px;
+    height: 46px;
+    background-color: white;
+    border: 2px solid #e1e1e1;
+}
+
+/*Block with company's clients*/
+
+.clients-block {
+    background-color: #f2f1f1;;
+    min-height: 496px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+/*Block with info on employees*/
+
+.team-block {
+    background-color: #54d154;
+    min-height: 574px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+
+/*Footer with bottom navigation and info about company*/
+
+.footer {
+    background-color: #333;
+    min-height: 620px;
+    width: 100%;
+    color: white;margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 20px;
 
 }
