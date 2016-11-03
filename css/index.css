@@ -51,7 +51,7 @@ body {
 
 @media (max-width: 990px) and (min-width: 768px) {
     .brand {
-        transform: translateX(28%);
+        transform: translateX(92%);
     }
 }
 
@@ -672,4 +672,6 @@ body {
     border-radius: 15px;
     padding: 4px 5px;
 }
+
+
 
